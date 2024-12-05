@@ -1,0 +1,630 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for body color changes */
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    transition: background-color 0.3s ease; /* Smooth transition for header background */
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link hover effect */
+}
+
+header nav ul li a:hover {
+    color: #ff9800; /* Hover effect */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+.main-image:hover {
+    transform: scale(1.05); /* Slight zoom */
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form Styles */
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effect for form */
+}
+
+form:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff9800; /* Highlighted border */
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+form button:hover {
+    background: #555; /* Darker background on hover */
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for hover */
+}
+
+.profile-pic:hover {
+    transform: rotate(10deg); /* Slight rotation on hover */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+    animation: fadeIn 1.5s ease-in-out; /* Fade-in animation for the page load */
+}
+
+/* Header Styles */
+header {
+    position: absolute;
+    top: 10px;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    animation: slideDown 1s ease-out; /* Slide-down animation for the header */
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Main Content Styles */
+main {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    animation: popUp 1s ease-in; /* Pop-up animation for main content */
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.main-image:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    animation: fadeIn 2s ease-in-out; /* Fade-in animation for footer */
+}
+
+/* Form Styles */
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: bounceIn 1.5s ease-in-out; /* Bounce animation for the form */
+}
+
+form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff9800;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+    animation: spinIn 1.5s ease-in-out; /* Spin-in animation for profile picture */
+}
+
+.profile-pic:hover {
+    transform: rotate(10deg);
+}
+
+/* Keyframes for Animations */
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Slide-down effect */
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Pop-up effect */
+@keyframes popUp {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Bounce effect */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Spin-in effect */
+@keyframes spinIn {
+    from {
+        transform: rotate(-360deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    animation: fadeIn 1s ease-in; /* Fade-in effect for page load */
+}
+
+/* Keyframe for Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    animation: slideDown 0.5s ease; /* Slide-down effect on load */
+}
+
+/* Keyframe for Slide-Down Animation */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff9800; /* Hover effect */
+    animation: pulse 0.5s; /* Subtle pulsing effect */
+}
+
+/* Keyframe for Pulse Animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    transition: transform 0.5s ease;
+    animation: fadeInZoom 1s ease-in; /* Zoom-in effect for main image */
+}
+
+/* Keyframe for Fade-In Zoom Animation */
+@keyframes fadeInZoom {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.main-image:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form Styles */
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeUp 0.5s ease-in; /* Fade-up effect on load */
+}
+
+/* Keyframe for Fade-Up Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+form:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff9800;
+    animation: glow 1s infinite; /* Glowing border effect */
+}
+
+/* Keyframe for Glow Animation */
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 5px #ff9800;
+    }
+    50% {
+        box-shadow: 0 0 15px #ff9800;
+    }
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: bounceIn 0.5s ease; /* Bounce-in effect for button */
+}
+
+/* Keyframe for Bounce-In Animation */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.5s ease;
+    animation: rotateIn 1s ease-in-out; /* Rotating effect on load */
+}
+
+/* Keyframe for Rotate-In Animation */
+@keyframes rotateIn {
+    from {
+        transform: rotate(-360deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+.profile-pic:hover {
+    transform: rotate(15deg); /* Slight tilt on hover */
+}
+.video-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: brightness(70%); /* Optional: Darken video for better text readability */
+}
+
+.overlay {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+}
+
+main h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-image {
+    background-color: #555;
+}
+.main-image {
+    border-radius: 50%; /* Keeps the circular shape */
+    max-width: 100px; /* Adjust this to control the size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto;
+    border: 3px solid #fff; /* Optional border for styling */
+    transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.main-image {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
